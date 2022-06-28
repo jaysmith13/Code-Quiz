@@ -3,9 +3,9 @@
 
 ## Technologies Used
 
-*
-*
-*
+* HTML
+* CSS
+* JavaScript
 
 ## Purpose
 
