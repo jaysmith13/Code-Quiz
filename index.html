@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./Assets/style.css">
+        <title>Code Quiz!</title>
+    </head>
+<body>
+    
+<div id ="Start_btn"><button>Start Quiz</button></div>
+<br>
+
+<div id="Rule_box">
+    <div class="Rule_title">
+        <span>House Rules</span>
+                <br>
+        <span>Are You Ready?</span>
+        <span>Click Start to begin! Good Luck!</span>
+</div>
+<div id="Rule_list">
+    <div id="Rule">1. You will have only <span>10 Seconds</span> for each question.</div>
+    <div id="Rule">2. No partial points will be given answers.</div>
+    <div id="Rule">3. You can't select any option once the timer stops.</div>
+    <div id="Rule">4. You can't exit from the quiz while you're playing.</div>
+    <div id="Rule">5. All answers are final. </div>
+   </div>
+   <div id="buttons">
+       <button class="Restart">Resume Quiz</button>
+       <button class="Exit">Discontinue Quiz</button>
+   </div>
+</div>
+
+
+<div id="quiz_box"></div>
+    <header>
+        <div id="title"> Java Code Quiz </div>
+        <div id="timer">
+            <div id="countdown">Time Remaining</div>
+            <br>
+            <div id="timer_seconds">10 Seconds</div>
+            <div id="time_line"></div>
+        </div>
+    </header>
+    <section>
+        <div class="que_text">
+            <span>Inside which HTML element do we put the JavaScript?</span>
+        </div>
+        <div class="option_list">
+            <div class="option">
+                <span>Scripting</span>
+                <div class="icon"><i class="fas fa-check"></i></div>
+            </div>
+                <div class="option">
+                    <span>Script</span>
+                    <div class="icon"><i class="fas fa-check"></i></div>
+                </div>        
+                <div class="option">
+                    <span>JS</span>
+                    <div class="icon"><i class="fas fa-check"></i></div>
+                    </div>
+                   <div class="option">
+                    <span>Javascript</span>
+                    <div class="icon"><i class="fas fa-check"></i></div>
+                        </div>
+        </div>
+        </section>
+
+  <footer>
+    <div id="=total_que">
+        <span><p>1</p>of<p>10</p>Questions</span>
+    </div>
+    <button class="next_btn">Next Question</button>
+   </footer>
+</div>
+
+<div class="score_box">
+    <div class="icon">
+        <i class="fas fa-crown"></i>
+    </div>  
+    <div class="finished_text">Congratulations! You're done with the Quiz!!</div> 
+    <div class="score_text">
+        <span>How'd you do? <p>1</p>out of<p>10</p></span>
+    </div> 
+    <div class="buttons">
+        <button class="restart">Replay Quiz</button>
+        <button class="Exit">Quit Quiz</button>
+    </div>
+</div>
+<script src="./Assets/script.js"></script>
+<script src="./Assets/quiz.js"></script>
+</body>
+</html>
