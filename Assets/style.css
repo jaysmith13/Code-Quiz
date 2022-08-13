@@ -20,11 +20,12 @@ body{
 .start_btn button{
     font-size: 35px;
     font-weight: 500;
-    padding: 20px 30px;
+    padding: 40px 30px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     text-align: center;
+
 }
 .Rules_box{
     width: 300px;
@@ -76,12 +77,13 @@ body{
     width: 540px;
     background: #fff;
     border-radius: 5px;
+    text-align: center;
 }
-.buttons button.Restart{
+.buttons button.Replay{
     color: #fff;
     border-color: #007bff;
 }
-.buttons button.Restart:hover{
+.buttons button.Replay:hover{
     background: #0263ca;
 }    
 .buttons button.Quit{
@@ -92,16 +94,16 @@ body{
 } 
 .quiz_box{
     display: none;
-    width: 550px;
+    width: 50px;
     background: #fff;
     border-radius: 5px;
 }
 .quiz_box header{
     position: relative;
     z-index: 99;
-    height: 70px;
-    padding: 40px 30px;
-    background: #fff;
+    height: 60px;
+    padding: 40px 50px;
+    background: ghostwhite;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -149,13 +151,14 @@ body{
     font-size: 25px;
     font-weight: 600;
 }
-.quiz_box .section .option_list{
+.quiz_box .section .options_list{
     padding: 20px 0;
     display: block;
 }
 section .option_list .option{
     background: aliceblue;
     border: 1px solid #84c5fe;
+    width: 200px;
     border-radius: 5px;
     padding: 8px 15px;
     margin-bottom: 15px;
@@ -166,15 +169,15 @@ section .option_list .option{
     cursor: pointer;
     transition:all 0.3s ease;
 }
-section .option_list .option:hover{
+section .options_list .options:hover{
     color: #343a40;
     background: #cce5ff;
     border-color: #b8daff;
 }
-.option_list .option:last-child{
+.options_list .options:last-child{
     margin-bottom: 0px;
 }
-.option_list .option .icon{
+.options_list .options .icon{
     height: 26px;
     width: 26px;
     border: 2px solid transparent;
